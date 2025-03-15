@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ethical Byet | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      font-family: 'Courier New', monospace;
+      color: #0f0;
+      overflow-x: hidden;
+    }
+
+    #particles-js {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      top: 0;
+      left: 0;
+    }
+
+    .container {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #00ff99;
+    }
+
+    h2 {
+      font-size: 1.8em;
+      color: #00ccff;
+      margin-top: 10px;
+    }
+
+    p {
+      font-size: 1.1em;
+      color: #99ffcc;
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #00ff99;
+      color: #000;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      margin: 20px 0;
+    }
+
+    .section {
+      margin-top: 50px;
+    }
+
+    .contact-links {
+      text-align: center;
+      max-width: 600px;
+      margin: 30px auto;
+    }
+
+    .contact-links a {
+      color: #00ccff;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      margin: 10px 15px;
+      font-size: 1.1em;
+    }
+
+    .contact-links i {
+      margin-right: 8px;
+      color: #0ff;
+      font-size: 1.3em;
+    }
+
+    footer {
+      margin-top: 50px;
+      color: #666;
+      font-size: 0.9em;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .skills-list span {
+      background-color: #111;
+      border: 1px solid #00ff99;
+      color: #00ff99;
+      padding: 8px 15px;
+      margin: 6px;
+      border-radius: 6px;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+  <div id="particles-js"></div>
+  <div class="container">
+    <h1>Ethical Byet</h1>
+    <h2>Cybersecurity | Ethical Hacking | Bug Bounty</h2>
+    <p>Welcome to my official hacker portfolio. I’m on a mission to secure the digital world by learning, breaking, and fixing systems ethically.</p>
+    <a href="#projects" class="btn">View My Tools & Projects</a>
+
+    <div class="section" id="about">
+      <h2>About Me</h2>
+      <p>Hi, I’m <strong>Bival Rohin</strong>, an ethical hacker passionate about exploring digital systems and enhancing cybersecurity. I aim to help people and organizations stay protected by finding and reporting vulnerabilities before bad actors can exploit them.</p>
+    </div>
+
+    <div class="section" id="skills">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <span>Penetration Testing</span>
+        <span>Web App Security</span>
+        <span>Bug Bounty Hunting</span>
+        <span>Linux/Kali/BlackArch</span>
+        <span>WiFi Hacking</span>
+        <span>Social Engineering</span>
+        <span>Metasploit & Payloads</span>
+        <span>Information Gathering</span>
+        <span>Git & GitHub</span>
+        <span>Bash Scripting</span>
+      </div>
+    </div>
+
+    <div class="section contact-links" id="contact">
+      <h2>Contact & Social Links</h2>
+      <a href="https://www.linkedin.com/in/bival-rohin-452108172" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+      <a href="https://bivalrohin.blogspot.com" target="_blank"><i class="fas fa-blog"></i>Blogspot</a>
+      <a href="https://www.instagram.com/bival_rohin_" target="_blank"><i class="fab fa-instagram"></i>Instagram (Personal)</a>
+      <a href="https://www.instagram.com/_ethical_byet_" target="_blank"><i class="fab fa-instagram"></i>Instagram (Company)</a>
+      <a href="mailto:bivalrohin@mail.com"><i class="fas fa-envelope"></i>Email (Personal)</a>
+      <a href="mailto:ethical.byet@mail.com"><i class="fas fa-envelope"></i>Email (Company)</a>
+      <a href="tel:+917012432915"><i class="fas fa-phone"></i>Phone</a>
+    </div>
+
+    <div class="section" id="projects">
+      <h2>Tools & Projects</h2>
+      <p>Coming soon: A curated list of my personal tools, GitHub repositories, and cool ethical hacking projects with open-source contributions.</p>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Ethical Byet | Built with passion for hacking and learning.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": { "value": 80, "density": { "enable": true, "value_area": 800 }},
+        "color": { "value": "#00ffcc" },
+        "shape": { "type": "circle" },
+        "opacity": { "value": 0.5, "random": false },
+        "size": { "value": 3, "random": true },
+        "line_linked": { "enable": true, "distance": 150, "color": "#00ffcc", "opacity": 0.4, "width": 1 },
+        "move": { "enable": true, "speed": 2 }
+      },
+      "interactivity": {
+        "events": {
+          "onhover": { "enable": true, "mode": "repulse" },
+          "onclick": { "enable": true, "mode": "push" }
+        },
+        "modes": {
+          "repulse": { "distance": 100 },
+          "push": { "particles_nb": 4 }
+        }
+      },
+      "retina_detect": true
+    });
+  </script>
+</body>
+</html>
