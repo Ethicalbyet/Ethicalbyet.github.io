@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethical Byet | Ethical Hacker Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Fira+Code&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Fira Code', monospace;
+            background: #0e0e0e;
+            color: #00ff99;
+            overflow-x: hidden;
+        }
+
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: #0e0e0e;
+            z-index: -1;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 60px 20px;
+            min-height: 100vh;
+            justify-content: center;
+        }
+
+        .glass-box {
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(0, 255, 153, 0.3);
+            border-radius: 15px;
+            padding: 30px;
+            max-width: 800px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 20px rgba(0, 255, 153, 0.2);
+        }
+
+        h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            color: #00ff99;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: #00ccff;
+        }
+
+        p {
+            margin-bottom: 25px;
+            font-size: 1rem;
+            color: #d2ffd2;
+        }
+
+        .btn {
+            background: #00ff99;
+            color: #000;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #00cc88;
+        }
+
+        .social-links {
+            margin-top: 25px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 0.95rem;
+        }
+
+        .social-links a {
+            color: #00ccff;
+            text-decoration: none;
+            transition: 0.2s;
+        }
+
+        .social-links a:hover {
+            text-decoration: underline;
+            color: #00ffff;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.8rem;
+            color: #888;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+            h2 {
+                font-size: 1rem;
+            }
+            p {
+                font-size: 0.9rem;
+            }
+            .btn {
+                font-size: 0.9rem;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <div class="container">
+        <div class="glass-box">
+            <h1>Ethical Byet</h1>
+            <h2>Cybersecurity | Ethical Hacking | Bug Bounty</h2>
+            <p>Welcome to my official hacker portfolio. I’m on a mission to secure the digital world by learning, breaking, and fixing systems ethically.</p>
+
+            <a class="btn" href="#projects">View My Tools & Projects</a>
+
+            <div class="social-links">
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/bival-rohin-452108172" target="_blank">bival-rohin</a></p>
+                <p><strong>Blogspot:</strong> <a href="https://bivalrohin.blogspot.com" target="_blank">bivalrohin.blogspot.com</a></p>
+                <p><strong>Instagram (Personal):</strong> <a href="https://www.instagram.com/bival_rohin_/" target="_blank">@bival_rohin_</a></p>
+                <p><strong>Instagram (Company):</strong> <a href="https://www.instagram.com/_ethical_byet_/" target="_blank">@_ethical_byet_</a></p>
+                <p><strong>Email (Personal):</strong> <a href="mailto:bivalrohin@mail.com">bivalrohin@mail.com</a></p>
+                <p><strong>Email (Company):</strong> <a href="mailto:ethical.byet@mail.com">ethical.byet@mail.com</a></p>
+                <p><strong>Contact:</strong> <a href="tel:+917012432915">+91 7012432915</a></p>
+            </div>
+
+            <footer>
+                <p>© 2025 Ethical Byet | Built with passion for hacking and learning.</p>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Particles.js CDN -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <!-- Particles.js Configuration -->
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": { "value": 80, "density": { "enable": true, "value_area": 800 }},
+                "color": { "value": "#00ff99" },
+                "shape": { "type": "circle" },
+                "opacity": { "value": 0.5 },
+                "size": { "value": 3 },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#00ff99",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 3
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": { "enable": true, "mode": "repulse" },
+                    "onclick": { "enable": true, "mode": "push" }
+                },
+                "modes": {
+                    "repulse": { "distance": 100 },
+                    "push": { "particles_nb": 4 }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+</body>
+</html>
